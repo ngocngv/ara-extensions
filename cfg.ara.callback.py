@@ -48,9 +48,9 @@ export ANSIBLE_LIBRARY=$ara_location/plugins/modules
 #------------------------------------------------------------------------------------------------
 
 # The order of priority is the following:
--   Environment variables
--   ./ansible.cfg (In the current working directory)
--   ~/.ansible.cfg (In the home directory)
+-   environment variables
+-   ./ansible.cfg                 # In the current working directory
+-   ~/.ansible.cfg                # In the home directory
 -   /etc/ansible/ansible.cfg
 
 
