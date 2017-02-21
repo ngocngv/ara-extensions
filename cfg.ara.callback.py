@@ -55,7 +55,9 @@ export ANSIBLE_LIBRARY=$ara_location/plugins/modules
 
 
 
-
+# When using the ansible.cfg file, the configuration options must be set under the ara namespace, as follows:
+[ara]
+variable = value
 
 
 
